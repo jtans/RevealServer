@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.resources = ['RevealServer.framework']
   s.vendored_frameworks   = 'RevealServer.framework'
   s.requires_arc = true
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 end
